@@ -13,3 +13,5 @@ module Rails104
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+config.active_record.default_timezone = :local
